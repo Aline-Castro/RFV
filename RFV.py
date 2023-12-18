@@ -111,7 +111,7 @@ def main():
     data_file_1 = st.sidebar.file_uploader("Bank marketing data", type = ['csv','xlsx'])
 
     if data_file_1 is None:
-        if st.sidebar.button('Carregar Arquivo Demonstrativo', 
+        if st.sidebar.button('Carregar Arquivo', 
                             help='./input/dados.csv', 
                             use_container_width=True, 
                             key='uploadDemoButton', 
